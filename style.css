@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 1440px;
+    height: 100vh;
+    border: 2px solid red;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    align-items: center;
+    font-size: 48px;
+    padding-top: 50px;
+}
+@media (max-width: 1250.98px) {
+    .main{
+        background-color: yellow;
+        flex-wrap: wrap;
+        height: 434px;
+    }
+    .box{
+        background-color: blue;
+        width: 400px;
+    }
+
+}
+@media (max-width: 1064.98px) {
+    .main{
+        background-color: red;
+        height: 434px;
+    }
+    .box{
+        background-color: black;
+    }
+}
+@media (max-width:1064px) {
+    .main{
+        background-color: red;
+        height: 434px;
+    }
+    .box{
+        background-color: black;
+    }
+}
+
+@media (max-width:920px) {
+    .main{
+        background-color: yellow;
+        height: 434px;
+    }
+    .box{
+        background-color: blue;
+    }
+}
+
+@media (max-width:750px) {
+    .main{
+        background-color: purple;
+        height: 434px;
+    }
+    .box{
+        background-color: orange;
+    }
+}
+@media (max-width:500) {
+    .main{
+        flex-wrap: wrap;
+        width: 500px;
+        height: 434px;
+    }
+}
+@media (max-width:300px) {
+    .main{
+        flex-wrap: wrap;
+        width: 500px;
+        background-color: purple;
+        gap: 30px;
+    }
+    .box{
+        background-color: orange;
+        width: 300px;
+        height: 300px;
+    }
+}
